@@ -14,8 +14,9 @@ function destructivelyRemoveFirstDriver(){
   return drivers.shift();
 }
 function appendDriver(name){
-alert(newDrivers.length);
-  return newDrivers.push(name);
+  newDriver=newDrivers.push(name);
+  alert(newDrivers.length);
+
 
 }
 function prependDriver(name){
