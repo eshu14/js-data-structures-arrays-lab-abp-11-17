@@ -17,10 +17,11 @@ function appendDriver(name){
    return(newDrivers.push(name));
 }
 function prependDriver(name){
-  alert(newDrivers.length);
+  //alert(newDrivers.length);
   return newDrivers.unshift(name);
 }
 function removeLastDriver(){
+  alert(newDrivers.length);
   return newDrivers.pop();
 }
 function removeFirstDriver(){
