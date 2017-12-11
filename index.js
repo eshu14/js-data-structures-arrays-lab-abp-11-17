@@ -19,8 +19,9 @@ function appendDriver(name){
 }
 function prependDriver(name){
   newDrivers=drivers.slice();
-  
-  return newDrivers.unshift(name);
+
+  newDrivers=newDrivers.unshift(name);
+  return newDrivers'
 }
 function removeLastDriver(){
   newDrivers=drivers.slice();
