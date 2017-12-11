@@ -1,6 +1,6 @@
 // Write your solution here!
 const drivers=["Milo", "Otis", "Garfield"];
-const newDrivers=drivers.slice();
+const newDrivers=drivers.slice(0);
 function destructivelyAppendDriver(name){
   return drivers.push(name);
 }
@@ -25,6 +25,6 @@ function removeLastDriver(){
   return newDrivers.pop();
 }
 function removeFirstDriver(){
-  
+
   return newDrivers.shift();
 }
