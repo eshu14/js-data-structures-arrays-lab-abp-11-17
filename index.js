@@ -21,11 +21,12 @@ function prependDriver(name){
   newDrivers=drivers.slice();
 
   newDrivers=newDrivers.unshift(name);
+  alert(newDrivers.length);
   return newDrivers;
 }
 function removeLastDriver(){
   newDrivers=drivers.slice();
-  alert(newDrivers.length);
+  //alert(newDrivers.length);
   return newDrivers.pop();
 }
 function removeFirstDriver(){
