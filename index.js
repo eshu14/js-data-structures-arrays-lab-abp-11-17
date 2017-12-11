@@ -23,8 +23,8 @@ function prependDriver(name){
 }
 function removeLastDriver(){
   let newDrivers=drivers.slice();
-  newDrivers.pop();
-  return drivers;
+  return newDrivers.pop();
+//  return drivers;
 
 }
 function removeFirstDriver(){
