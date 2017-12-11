@@ -15,7 +15,7 @@ function destructivelyRemoveFirstDriver(){
 function appendDriver(name){
   let newDrivers=drivers.slice(0);
   newDrivers=newDrivers.push(name);
-  return drivers;
+  return newDrivers;
 }
 function prependDriver(name){
   let newDrivers=drivers.slice(0);
